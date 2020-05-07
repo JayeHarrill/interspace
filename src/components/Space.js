@@ -72,10 +72,10 @@ const Circle = styled.span`
   z-index: -1;
   display: inline-block;
   border-radius: 50%;
-  top: 10%;
-  left: 10%;
-  height: 80%;
-  width: 80%;
+  top: 10vw;
+  left: 10vw;
+  height: 80vw;
+  width: 80vw;
   background-color: #bbb;
 `;
 

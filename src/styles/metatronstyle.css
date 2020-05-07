@@ -20,8 +20,8 @@ body {
       touch-action: none; } }
 
 .m-grid-container {
-  height: 40vw;
-  width: 36vw;
+  height: 80vw;
+  width: 80vw;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
@@ -31,8 +31,6 @@ body {
   grid-template-rows: repeat(40, 1fr);
   position: relative; }
   .m-grid-container .frame {
-    height: 40vw;
-    width: 36vw;
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 35;
@@ -103,7 +101,7 @@ body {
     background: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
     background: -o-radial-gradient(50% 50%, 40% 40%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
     background: radial-gradient(40% 40% at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
-    border-radius: 100%;
+    border-radius: 10%;
     display: block;
     -webkit-transition: 3s ease-in;
     -o-transition: 3s ease-in;
