@@ -131,12 +131,6 @@ body {
   border: 3px groove yellow;
 }
 
-.m-grid-container {
-  position: fixed;
-  left: 10vw;
-  top: 10vh;
-}
-
 .click-zone {
   transition: 0.01s cubic-bezier(0.2, 0.8, 0.2, 1);
   /* z-index: 2; */

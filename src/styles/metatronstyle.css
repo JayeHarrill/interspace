@@ -23,6 +23,8 @@ body {
   height: 80vw;
   width: 80vw;
   margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[36];
