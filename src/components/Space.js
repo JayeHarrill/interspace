@@ -142,7 +142,7 @@ const Space = () => {
               <div className="m-grid-container">
                 <div
                   id="c6"
-                  className="circle row-2 c-center click-zone"
+                  className="circle row-2 c-rectright click-zone"
                   onClick={() => addFloatingSpace("discord chat")}
                 >
                   <span className="roomName">Get in line</span>
@@ -153,7 +153,7 @@ const Space = () => {
                 <div id="c8" className="circle row-5 c-center-right"></div>
                 <div
                   id="c9"
-                  className="circle row-6 c-center click-zone"
+                  className="circle row-6 c-rectleft click-zone"
                   onClick={() => addFloatingSpace("loft.radio")}
                 >
                   <span className="roomName">Enter VR</span>

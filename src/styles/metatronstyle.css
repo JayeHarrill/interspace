@@ -196,6 +196,16 @@ body {
       grid-column-start: 15;
       -ms-grid-column-span: 8;
       grid-column-end: 23; }
+    .m-grid-container .circle.c-rectright {
+      -ms-grid-column: 15;
+      grid-column-start: 15;
+      -ms-grid-column-span: 13;
+      grid-column-end: 28; }
+    .m-grid-container .circle.c-rectleft {
+      -ms-grid-column: 10;
+      grid-column-start: 10;
+      -ms-grid-column-span: 13;
+      grid-column-end: 23; }
     .m-grid-container .circle.c-center-right {
       -ms-grid-column: 22;
       grid-column-start: 22;
