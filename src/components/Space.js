@@ -77,6 +77,7 @@ const Circle = styled.span`
   height: 80vh;
   width: 80vw;
   background-color: #bbb;
+  background: rgba(187, 187, 187, 0.7);
 `;
 
 const CurrentSpace = styled.span`
