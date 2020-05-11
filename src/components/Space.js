@@ -144,29 +144,36 @@ const Space = () => {
                   id="c6"
                   className="circle row-2 c-rectright click-zone"
                   onClick={() => addFloatingSpace("discord chat")}
+                  style={{backgroundColor: 'coral'}}
                 >
-                  <span className="roomName">Get in line</span>
+                  <span className="roomName">Not on the list? Get in line!</span>
                 </div>
 
-                <div id="c7" className="circle row-3 c-center-right"></div>
-
-                <div id="c8" className="circle row-5 c-center-right"></div>
+                <div
+                  id="c8"
+                  className="circle row-5 c-center-right"
+                  style={{backgroundColor: 'aquamarine'}}
+                >
+                  <span className="roomName">Live Cam</span>
+                </div>
                 <div
                   id="c9"
                   className="circle row-6 c-rectleft click-zone"
                   onClick={() => addFloatingSpace("loft.radio")}
+                  style={{backgroundColor: 'sienna'}}
                 >
                   <span className="roomName">Enter VR</span>
                 </div>
-                <div id="c10" className="circle row-5 c-center-left"></div>
-                <div id="c11" className="circle row-3 c-center-left"></div>
+                <div id="c11" className="circle row-3 c-center-left">
+                  <span className="roomName">Join the call</span>
+                </div>
 
                 <div
                   id="c12"
                   className="circle row-4 c-center click-zone"
                   onClick={() => addFloatingSpace("calendar")}
                 >
-                  <span className="roomName">Event calendar</span>
+                  <span className="roomName">Livestream</span>
                 </div>
               </div>
             </Circle>
