@@ -66,7 +66,7 @@ const Closer = styled.div`
 
 function getFloatingRoomWindow(windowKey) {
   if (windowKey === "stream") {
-    return <YoutubeInstance roomData={{videoId: "g2IIvriWvTA"}}/>;
+    return <YoutubeInstance width={400} height={200} roomData={{videoId: "g2IIvriWvTA"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
   } else if (windowKey === null) {
