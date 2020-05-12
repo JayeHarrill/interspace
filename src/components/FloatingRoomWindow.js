@@ -3,10 +3,8 @@ import styled from "styled-components";
 import { Rnd } from "react-rnd";
 
 import { FloatingSpaceContext } from "../contexts/FloatingSpaceContext";
-import LoftRadioInstance from "./integrations/LoftRadioInstance";
-import ChatInstance from "./integrations/ChatInstance";
-import CalendarInstance from "./integrations/CalendarInstance";
 import YoutubeInstance from "./integrations/YoutubeInstance.js";
+import HubsRoomInstance from "./integrations/HubsRoom.js";
 import RoomInstance from "./RoomInstance";
 import { RoomNames } from "../utils/constants";
 
@@ -67,6 +65,8 @@ const Closer = styled.div`
 function getFloatingRoomWindow(windowKey) {
   if (windowKey === "stream") {
     return <YoutubeInstance width={400} height={200} roomData={{videoId: "g2IIvriWvTA"}}/>;
+  } else if (windowKey === "hubs") {
+    return <HubsRoomInstance width={400} height={200} roomData={{roomId: "HjtDSeF/precious-acrobatic-meetup", embedToken: "dfc2759a93c6fb241ba91b69e1cc61d8"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
   } else if (windowKey === null) {

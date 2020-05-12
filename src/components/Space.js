@@ -160,7 +160,7 @@ const Space = () => {
                 <div
                   id="c9"
                   className="circle row-6 c-rectleft click-zone"
-                  onClick={() => addFloatingSpace("stream")}
+                  onClick={() => addFloatingSpace("hubs")}
                   style={{backgroundColor: 'sienna'}}
                 >
                   <span className="roomName">Enter VR</span>
