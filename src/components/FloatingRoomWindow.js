@@ -64,9 +64,9 @@ const Closer = styled.div`
 
 function getFloatingRoomWindow(windowKey) {
   if (windowKey === "stream") {
-    return <YoutubeInstance width={400} height={200} roomData={{videoId: "g2IIvriWvTA"}}/>;
+    return <YoutubeInstance width={"100%"} height={"100%"} roomData={{videoId: "g2IIvriWvTA"}}/>;
   } else if (windowKey === "hubs") {
-    return <HubsRoomInstance width={400} height={200} roomData={{roomId: "HjtDSeF/precious-acrobatic-meetup", embedToken: "dfc2759a93c6fb241ba91b69e1cc61d8"}}/>;
+    return <HubsRoomInstance width={"100%"} height={"100%"} roomData={{roomId: "HjtDSeF/precious-acrobatic-meetup", embedToken: "dfc2759a93c6fb241ba91b69e1cc61d8"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
   } else if (windowKey === null) {
