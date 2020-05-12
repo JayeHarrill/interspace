@@ -3,7 +3,7 @@ import React from "react";
 function YoutubeInstance({width, height, roomData}) {
   return (
     <iframe
-      title="Youtube conference room"
+      title="Youtube Livestream"
       width={width}
       height={height}
       src={`https://www.youtube.com/embed/${roomData.videoId}`}

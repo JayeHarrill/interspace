@@ -6,6 +6,7 @@ import { FloatingSpaceContext } from "../contexts/FloatingSpaceContext";
 import LoftRadioInstance from "./integrations/LoftRadioInstance";
 import ChatInstance from "./integrations/ChatInstance";
 import CalendarInstance from "./integrations/CalendarInstance";
+import YoutubeInstance from "./integrations/YoutubeInstance.js";
 import RoomInstance from "./RoomInstance";
 import { RoomNames } from "../utils/constants";
 
@@ -64,14 +65,10 @@ const Closer = styled.div`
 `;
 
 function getFloatingRoomWindow(windowKey) {
-  if (windowKey === "loft.radio") {
-    return <LoftRadioInstance />;
+  if (windowKey === "stream") {
+    return <YoutubeInstance roomData={{videoId: "g2IIvriWvTA"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
-  } else if (windowKey === "discord chat") {
-    return <ChatInstance />;
-  } else if (windowKey === "calendar") {
-    return <CalendarInstance />;
   } else if (windowKey === null) {
     return null;
   }

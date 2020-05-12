@@ -144,7 +144,7 @@ const Space = () => {
                 <div
                   id="c6"
                   className="circle row-2 c-rectright click-zone"
-                  onClick={() => addFloatingSpace("discord chat")}
+                  onClick={() => addFloatingSpace("stream")}
                   style={{backgroundColor: 'coral'}}
                 >
                   <span className="roomName">Not on the list? Get in line!</span>
@@ -160,7 +160,7 @@ const Space = () => {
                 <div
                   id="c9"
                   className="circle row-6 c-rectleft click-zone"
-                  onClick={() => addFloatingSpace("loft.radio")}
+                  onClick={() => addFloatingSpace("stream")}
                   style={{backgroundColor: 'sienna'}}
                 >
                   <span className="roomName">Enter VR</span>
@@ -172,7 +172,7 @@ const Space = () => {
                 <div
                   id="c12"
                   className="circle row-4 c-center click-zone"
-                  onClick={() => addFloatingSpace("calendar")}
+                  onClick={() => addFloatingSpace("stream")}
                 >
                   <span className="roomName">Livestream</span>
                 </div>
