@@ -1,20 +1,14 @@
-const domain = 'portal.interspace.chat';
+const domain = 'meet.jit.si';
 
-export const JitsiInstances = ['capsule1', 'capsule2'];
+export const JitsiInstances = ['capsule1'];
 
 export const RoomURLs = {
 	capsule1: {
 		jitsi: {
 			domain,
-			roomName: 'capsule1'
+			roomName: 'LateVoicesNeedPerfectly'
 		}
 	},
-	capsule2: {
-		jitsi: {
-			domain,
-			roomName: 'capsule2'
-		}
-	}
 };
 
 export const RoomNames = Object.keys(RoomURLs);

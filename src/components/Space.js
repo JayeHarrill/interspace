@@ -48,7 +48,7 @@ const SpaceInfo = styled.div`
   }
 `;
 
-const Descripton = styled.div`
+const Description = styled.div`
   position: absolute;
   top: 0px;
   width: 100%;
@@ -165,7 +165,12 @@ const Space = () => {
                 >
                   <span className="roomName">Enter VR</span>
                 </div>
-                <div id="c11" className="circle row-3 c-center-left">
+                <div
+                  id="c11" 
+                  onClick={() => addFloatingSpace("capsule1")}
+                  className="circle row-3 c-center-left"
+                  style={{backgroundColor: 'cadetblue'}}
+                >
                   <span className="roomName">Join the call</span>
                 </div>
 
@@ -183,24 +188,15 @@ const Space = () => {
       <MobileView>
         <MobileContainer>
           <Headline>
-            Welcome to{" "}
-            <a
-              href="https://interspace.chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              interspace.chat
-            </a>
+            Welcome to the party
           </Headline>
-          <Descripton>
-            <p> Click below to enter the videochat</p>
-
-            <a href="https://portal.interspace.chat">or open a new room</a>
-          </Descripton>
+          <Description>
+            <p>Click below to enter the videochat</p>
+          </Description>
           <MobileSelectorContainer>
             <Room roomName="capsule1" />
-            <Room roomName="capsule2" />
+            <Room roomName="stream" />
+            <Room roomName="hubs" />
           </MobileSelectorContainer>
           <JitsiInstanceMobile />
         </MobileContainer>
