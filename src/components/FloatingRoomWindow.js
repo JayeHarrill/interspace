@@ -3,9 +3,8 @@ import styled from "styled-components";
 import { Rnd } from "react-rnd";
 
 import { FloatingSpaceContext } from "../contexts/FloatingSpaceContext";
-import LoftRadioInstance from "./integrations/LoftRadioInstance";
-import ChatInstance from "./integrations/ChatInstance";
-import CalendarInstance from "./integrations/CalendarInstance";
+import YoutubeNocookieInstance from "./integrations/YoutubeNocookieInstance.js";
+import HubsRoomInstance from "./integrations/HubsRoom.js";
 import RoomInstance from "./RoomInstance";
 import { RoomNames } from "../utils/constants";
 
@@ -64,14 +63,12 @@ const Closer = styled.div`
 `;
 
 function getFloatingRoomWindow(windowKey) {
-  if (windowKey === "loft.radio") {
-    return <LoftRadioInstance />;
+  if (windowKey === "stream") {
+    return <YoutubeNocookieInstance width={"100%"} height={"100%"} roomData={{videoId: "XI-1fxcGY4g"}}/>;
+  } else if (windowKey === "hubs") {
+    return <HubsRoomInstance width={"100%"} height={"100%"} roomData={{roomId: "idiCPED/wooden-fine-domain", embedToken: "e3c0173df8f1a7651b8472896b567606"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
-  } else if (windowKey === "discord chat") {
-    return <ChatInstance />;
-  } else if (windowKey === "calendar") {
-    return <CalendarInstance />;
   } else if (windowKey === null) {
     return null;
   }

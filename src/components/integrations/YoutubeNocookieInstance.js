@@ -1,12 +1,12 @@
 import React from "react";
 
-function YoutubeInstance({width, height, roomData}) {
+function YoutubeNocookieInstance({width, height, roomData}) {
   return (
     <iframe
       title="Youtube Livestream"
       width={width}
       height={height}
-      src={`https://www.youtube.com/embed/${roomData.videoId}`}
+      src={`https://www.youtube-nocookie.com/embed/${roomData.videoId}`}
       frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
@@ -14,4 +14,4 @@ function YoutubeInstance({width, height, roomData}) {
   );
 }
 
-export default YoutubeInstance;
+export default YoutubeNocookieInstance;

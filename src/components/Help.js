@@ -16,6 +16,7 @@ const HelpStyled = styled.nav`
   }
   .Collapsible__contentOuter {
     max-width: 300px;
+    background-color: #333;
 
     :hover {
       .Collapsible__contentInner {
@@ -40,25 +41,14 @@ const Help = () => {
   return (
     <HelpStyled>
       <Collapsible trigger="Help">
-        <p>General usage:</p>
+        <p>Heads up!</p>
         <ul>
           <StyledListItem>
-            This website is making it easy for users to meet in the same rooms
-            to have a video call. <br></br>We use it for conferences and
-            gatherings{" "}
-          </StyledListItem>
-        </ul>
-        <p>Textchat:</p>
-        <ul>
-          <StyledListItem>
-            The text chat can be used by registering on our{" "}
-            <a
-              href="https://discord.gg/YStg9p9"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Discord Server
-            </a>
+            By default, you are muted when entering any room.<br/><br/>
+            For a smoother experience, we recommend that you close all
+            non-essential apps and browser tabs.<br/><br/>
+            Having sound issues in VR? Try switching your audio output
+            on the welcome screen to internal speakers.{" "}
           </StyledListItem>
         </ul>
         <hr />
