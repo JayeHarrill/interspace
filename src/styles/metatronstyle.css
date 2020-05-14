@@ -158,17 +158,17 @@ body {
       -ms-grid-row: 9;
       grid-row-start: 9;
       -ms-grid-row-span: 8;
-      grid-row-end: 17; }
+      grid-row-end: 18; }
     .m-grid-container .circle.row-3 {
       -ms-grid-row: 13;
       grid-row-start: 13;
       -ms-grid-row-span: 8;
-      grid-row-end: 21; }
+      grid-row-end: 22; }
     .m-grid-container .circle.row-4 {
       -ms-grid-row: 17;
       grid-row-start: 17;
       -ms-grid-row-span: 8;
-      grid-row-end: 25; }
+      grid-row-end: 26; }
     .m-grid-container .circle.row-5 {
       -ms-grid-row: 21;
       grid-row-start: 21;
