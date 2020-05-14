@@ -36,7 +36,7 @@ const Logolink = styled.a`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logolink href="/">
+      <Logolink href="https://raveconvr.github.io/interspace/">
         <Logotext>Solarpunk VR Party</Logotext>
       </Logolink>
       <Help />
