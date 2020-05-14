@@ -15,7 +15,7 @@
 html {
   height: 100%;
   background-color: rgb(36, 36, 36);
-  background-image: url(./img/flowers.jpeg);
+  background-image: url(./img/background5.gif);
   background-size: cover;
   background-repeat: repeat;
   background-blend-mode: soft-light;
@@ -178,8 +178,12 @@ body {
   background-size: cover;
 }
 
+#c6{
+  background: url(./img/code_off.png);
+  background-size: cover;
+}
 #c6:hover{
-  background: url(./img/c7.jpg);
+  background: url(./img/code_on.png);
   background-size: cover;
 }
 
@@ -190,29 +194,37 @@ body {
 
 
 #c8:hover{
-  
+  background: url(./img/twitch.png);
   background-size: cover;
 }
 
 
 #c9:hover{
-  background: url(./img/c9.jpg);
+  background: url(./img/twitch.png);
   background-size: cover;
 }
 
 #c10:hover {
-  
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#c11:hover {
-  
+#c11 {
+  background: url(./img/wwo_off.png);
   background-size: cover;
 }
 
+#c11:hover {
+  background: url(./img/wwo_on.png);
+  background-size: cover;
+}
+
+#c12 {
+  background: url(./img/watch_off.png);
+  background-size: cover;
+}
 #c12:hover {
-  background: url(./img/c6.jpg);
+  background: url(./img/watch_on.png);
   background-size: cover;
 }
 

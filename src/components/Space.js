@@ -67,19 +67,6 @@ const Description = styled.div`
   }
 `;
 
-const Circle = styled.span`
-  position: absolute;
-  z-index: -1;
-  display: inline-block;
-  border-radius: 50%;
-  top: 10vh;
-  left: 10vw;
-  height: 80vh;
-  width: 80vw;
-  background-color: #bbb;
-  background: rgba(187, 187, 187, 0.7);
-`;
-
 const CurrentSpace = styled.span`
   color: whitesmoke;
 `;
@@ -139,50 +126,34 @@ const Space = () => {
             </SpaceInfo>
           </span>
           <div>
-            <Circle>
-              <div className="m-grid-container">
-                <div
-                  id="c6"
-                  className="circle row-2 c-rectright click-zone"
-                  onClick={() => addFloatingSpace("stream")}
-                  style={{backgroundColor: 'coral'}}
-                >
-                  <span className="roomName">Not on the list? Get in line!</span>
-                </div>
+            <div className="m-grid-container">
+              <div
+                id="c6"
+                className="circle row-2 c-rectright click-zone"
+                onClick={() => addFloatingSpace("stream")}
+              ></div>
 
-                <div
-                  id="c8"
-                  className="circle row-5 c-center-right"
-                  style={{backgroundColor: 'aquamarine'}}
-                >
-                  <span className="roomName">Live Cam</span>
-                </div>
-                <div
-                  id="c9"
-                  className="circle row-6 c-rectleft click-zone"
-                  onClick={() => addFloatingSpace("hubs")}
-                  style={{backgroundColor: 'sienna'}}
-                >
-                  <span className="roomName">Enter VR</span>
-                </div>
-                <div
-                  id="c11" 
-                  onClick={() => addFloatingSpace("capsule1")}
-                  className="circle row-3 c-center-left"
-                  style={{backgroundColor: 'cadetblue'}}
-                >
-                  <span className="roomName">Join the call</span>
-                </div>
+              <div
+                id="c8"
+                className="circle row-5 c-center-right"
+              ></div>
+              <div
+                id="c9"
+                className="circle row-6 c-rectleft click-zone"
+                onClick={() => addFloatingSpace("hubs")}
+              ></div>
+              <div
+                id="c11" 
+                onClick={() => addFloatingSpace("capsule1")}
+                className="circle row-3 c-center-left"
+              ></div>
 
-                <div
-                  id="c12"
-                  className="circle row-4 c-center click-zone"
-                  onClick={() => addFloatingSpace("stream")}
-                >
-                  <span className="roomName">Livestream</span>
-                </div>
-              </div>
-            </Circle>
+              <div
+                id="c12"
+                className="circle row-4 c-center click-zone"
+                onClick={() => addFloatingSpace("stream")}
+              ></div>
+            </div>
           </div>
       </BrowserView>
       <MobileView>
