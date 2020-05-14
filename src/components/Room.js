@@ -8,7 +8,7 @@ const Room = ({ roomName, active }) => {
 	return (
 		<span className='click-zone-mobile' onClick={() => setSpace(roomName)}>
 			<span className={`roomFont ${currentSpace === roomName ? 'active' : ''}`}>
-				{roomName}
+				Join the Party
 			</span>
 		</span>
 	);

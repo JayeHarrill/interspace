@@ -24,7 +24,7 @@ const JitsiInstanceMobile = () => {
   const height = 400;
 
   useEffect(() => {
-    const domain = "portal.interspace.chat";
+    const domain = "meet.jit.si";
     const options = {
       roomName: currentSpace,
       //     width: width,

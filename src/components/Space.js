@@ -140,7 +140,6 @@ const Space = () => {
               <div
                 id="c9"
                 className="circle row-6 c-rectleft click-zone"
-                onClick={() => addFloatingSpace("hubs")}
               ></div>
               <div
                 id="c11" 
@@ -159,15 +158,10 @@ const Space = () => {
       <MobileView>
         <MobileContainer>
           <Headline>
-            Welcome to the party
+            This site is not mobile-optimized. Please visit on a laptop or desktop browser.
           </Headline>
-          <Description>
-            <p>Click below to enter the videochat</p>
-          </Description>
           <MobileSelectorContainer>
-            <Room roomName="capsule1" />
-            <Room roomName="stream" />
-            <Room roomName="hubs" />
+            <Room roomName="LateVoicesNeedPerfectly" />
           </MobileSelectorContainer>
           <JitsiInstanceMobile />
         </MobileContainer>
