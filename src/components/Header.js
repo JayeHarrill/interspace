@@ -6,6 +6,7 @@ import Help from "./Help";
 
 const HeaderContainer = styled.div`
   position: fixed;
+  z-index: 999;
   top: 0px;
   left: 20px;
   display: grid;

@@ -113,7 +113,7 @@ body {
     -o-transition: 3s ease-in;
     transition: 3s ease-in;
     position: relative;
-    z-index: 999; }
+    z-index: 998; }
     .m-grid-container .circle:after {
       content: "";
       width: 100%;

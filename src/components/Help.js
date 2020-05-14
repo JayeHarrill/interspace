@@ -44,11 +44,17 @@ const Help = () => {
         <p>Heads up!</p>
         <ul>
           <StyledListItem>
-            By default, you are muted when entering any room.<br/><br/>
             For a smoother experience, we recommend that you close all
             non-essential apps and browser tabs.<br/><br/>
+            We recommend viewing VR in full screen.<br/><br/>
+            By default, you are muted when entering any room.<br/><br/>
             Having sound issues in VR? Try switching your audio output
-            on the welcome screen to internal speakers.{" "}
+            on the welcome screen to internal speakers.<br/><br/>
+            This is experimental.<br/><br/>
+            VR may cause dizziness.<br/><br/>
+            For VR headset viewing, must be viewed in Firefox with Firefox
+            running off your discrete graphics card. Please note, some headsets
+            have limited support.{" "}
           </StyledListItem>
         </ul>
         <hr />
