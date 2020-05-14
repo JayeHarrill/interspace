@@ -129,10 +129,9 @@ const Space = () => {
             <div className="m-grid-container">
               <div
                 id="c6"
+                onClick={() => window.open("https://t.me/joinchat/EMsE7FeR9UjWW8V1ELRi7g")}
                 className="circle row-2 c-rectright click-zone"
-                onClick={() => addFloatingSpace("stream")}
               ></div>
-
               <div
                 id="c8"
                 className="circle row-5 c-center-right"
@@ -146,7 +145,6 @@ const Space = () => {
                 onClick={() => addFloatingSpace("capsule1")}
                 className="circle row-3 c-center-left"
               ></div>
-
               <div
                 id="c12"
                 className="circle row-4 c-center click-zone"
