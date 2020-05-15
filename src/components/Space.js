@@ -144,7 +144,9 @@ const Space = () => {
               <div
                 id="c9"
                 className="circle row-6 c-rectleft click-zone"
-              ></div>
+              >Enter VR
+                <p>{"{Code required! Works in browser.}"}</p>
+              </div>
               <div
                 id="c11" 
                 onClick={() => addFloatingSpace("capsule1")}

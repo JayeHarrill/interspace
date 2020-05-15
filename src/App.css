@@ -149,37 +149,40 @@ body {
 #c6 {
   background: url(./img/transparent.png) no-repeat;
   background-size: contain;
+  background-position: center;
   font-family: Helvetica;
   font-size: 30px;
 }
 #c6:hover {
-  background: url(./img/c6.jpg) no-repeat;
+  background: url(./img/c6.png) no-repeat;
   background-size: contain;
-}
-
-
-#c7:hover {
-  background-size: cover;
+  background-position: center;
 }
 
 #c8 {
   background: url(./img/transparent.png) no-repeat;
   background-size: contain;
+  background-position: center;
   font-family: Helvetica;
   font-size: 35px;
 }
 #c8:hover {
   background: url(./img/c12.png) no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 #c9 {
   background: url(./img/transparent.png) no-repeat;
   background-size: contain;
+  background-position: center;
+  font-family: Helvetica;
+  font-size: 120px;
 }
 #c9:hover {
   background: url(./img/c9.png) no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 #c10:hover {
@@ -190,6 +193,7 @@ body {
 #c11 {
   background: url(./img/transparent.png) no-repeat;
   background-size: contain;
+  background-position: center;
   font-family: Helvetica;
   font-size: 60px;
   font-weight: bold;
@@ -197,6 +201,7 @@ body {
 #c11:hover {
   background: url(./img/c11.png) no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .click-zone:hover .click-zone-highlight {
