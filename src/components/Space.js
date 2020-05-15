@@ -143,6 +143,7 @@ const Space = () => {
               </div>
               <div
                 id="c9"
+                onClick={() => window.open("https://hubs.mozilla.com/link/")}
                 className="circle row-6 c-rectleft click-zone"
               >Enter VR
                 <p>{"{Code required! Works in browser.}"}</p>
