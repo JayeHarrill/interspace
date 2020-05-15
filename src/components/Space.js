@@ -131,11 +131,16 @@ const Space = () => {
                 id="c6"
                 onClick={() => window.open("https://t.me/joinchat/EMsE7FeR9UjWW8V1ELRi7g")}
                 className="circle row-2 c-rectright click-zone"
-              ></div>
+              >Get in line for a VR entry code
+                <p>{"{Telegram}"}</p>
+              </div>
               <div
                 id="c8"
                 className="circle row-5 c-center-right"
-              ></div>
+                onClick={() => addFloatingSpace("stream")}
+              >Watch on Your Own
+                <p>{"{DJ Stream}"}</p>
+              </div>
               <div
                 id="c9"
                 className="circle row-6 c-rectleft click-zone"
@@ -144,12 +149,9 @@ const Space = () => {
                 id="c11" 
                 onClick={() => addFloatingSpace("capsule1")}
                 className="circle row-3 c-center-left"
-              ></div>
-              <div
-                id="c12"
-                className="circle row-4 c-center click-zone"
-                onClick={() => addFloatingSpace("stream")}
-              ></div>
+              >Watch with Others
+                <p>{"{Jitsi}"}</p>
+              </div>
             </div>
           </div>
       </BrowserView>

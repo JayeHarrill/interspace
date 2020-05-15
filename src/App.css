@@ -146,62 +146,40 @@ body {
   /* border: 1px solid grey; */
 }
 
-#c0:hover {
-  background: url(./img/c12.png);
-  background-size: cover;
+#c6 {
+  background: url(./img/transparent.png) no-repeat;
+  background-size: contain;
+  font-family: Helvetica;
+  font-size: 30px;
 }
-
-#c1:hover {  
-  background: url(./img/c10.jpg);
-  background-size: cover;
-}
-
-#c2:hover {
-  filter: saturate(0);
-  background: url(./img/ethturin.png);
-  background-size: cover;
-}
-
-#c3:hover {
-  background: url(./img/noncon.png);
-  background-size: cover;
-}
-
-#c4:hover {
-  background: url(./img/metagame.png);
-  background-size: cover;
-}
-
-#c5:hover {
-  background: url(./img/c8.jpg);
-  
-  background-size: cover;
-}
-
-#c6{
-  background: url(./img/code_off.png);
-  background-size: cover;
-}
-#c6:hover{
-  background: url(./img/code_on.png);
-  background-size: cover;
+#c6:hover {
+  background: url(./img/c6.jpg) no-repeat;
+  background-size: contain;
 }
 
 
-#c7:hover{
+#c7:hover {
   background-size: cover;
 }
 
-
-#c8:hover{
-  background: url(./img/twitch.png);
-  background-size: cover;
+#c8 {
+  background: url(./img/transparent.png) no-repeat;
+  background-size: contain;
+  font-family: Helvetica;
+  font-size: 35px;
+}
+#c8:hover {
+  background: url(./img/c12.png) no-repeat;
+  background-size: contain;
 }
 
-
-#c9:hover{
-  background: url(./img/twitch.png);
-  background-size: cover;
+#c9 {
+  background: url(./img/transparent.png) no-repeat;
+  background-size: contain;
+}
+#c9:hover {
+  background: url(./img/c9.png) no-repeat;
+  background-size: contain;
 }
 
 #c10:hover {
@@ -210,22 +188,15 @@ body {
 }
 
 #c11 {
-  background: url(./img/wwo_off.png);
-  background-size: cover;
+  background: url(./img/transparent.png) no-repeat;
+  background-size: contain;
+  font-family: Helvetica;
+  font-size: 60px;
+  font-weight: bold;
 }
-
 #c11:hover {
-  background: url(./img/wwo_on.png);
-  background-size: cover;
-}
-
-#c12 {
-  background: url(./img/watch_off.png);
-  background-size: cover;
-}
-#c12:hover {
-  background: url(./img/watch_on.png);
-  background-size: cover;
+  background: url(./img/c11.png) no-repeat;
+  background-size: contain;
 }
 
 .click-zone:hover .click-zone-highlight {
