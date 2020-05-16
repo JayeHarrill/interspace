@@ -1,13 +1,9 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
 
-import { FloatingSpaceContext } from "../contexts/FloatingSpaceContext";
-
 import { RoomURLs } from "../utils/constants";
 import JitsiInstance from "./integrations/JitsiInstance";
 import ChatInstance from "./integrations/ChatInstance";
-// import YoutubeInstance from './integrations/YoutubeInstance';
-// import HubInstance from './integrations/HubInstance';
 
 const SERVICES = {
   jitsi: {
@@ -37,9 +33,6 @@ const ChatButton = styled.button`
 `;
 
 const RoomInstance = ({ space }) => {
-  const { currentFloatingSpaces, addFloatingSpace } = useContext(
-    FloatingSpaceContext
-  );
   const roomURLs = RoomURLs[space];
   const availableServiceNames = Object.keys(SERVICES).filter(serviceName =>
     Object.keys(roomURLs).includes(serviceName)
@@ -56,11 +49,6 @@ const RoomInstance = ({ space }) => {
   return (
     <Container>
       <RoomServiceComponent roomData={roomData} />
-      {currentFloatingSpaces.indexOf("discord chat") === -1 ? (
-        <ChatButton onClick={() => addFloatingSpace("discord chat")}>
-          Open Chat
-        </ChatButton>
-      ) : null}
     </Container>
   );
 };
