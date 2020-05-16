@@ -63,7 +63,7 @@ const Closer = styled.div`
 
 function getFloatingRoomWindow(windowKey) {
   if (windowKey === "stream") {
-    return <YoutubeNocookieInstance width={"100%"} height={"100%"} roomData={{videoId: "MAcaA3pEI3w"}}/>;
+    return <YoutubeNocookieInstance width={"100%"} height={"100%"} roomData={{videoId: "fa3Ivg_U3U0"}}/>;
   } else if (RoomNames.indexOf(windowKey) > -1) {
     return <RoomInstance space={windowKey} />;
   } else if (windowKey === null) {
